@@ -2,8 +2,8 @@ install:
     - python --version
     - python -m pip --version
 
-build:
-    - ps: Write-Host "This is PowerShell"
+build: off
 
 test_script:
+    - ps: Write-Host "This is PowerShell"
     - cmd: ECHO this is batch
